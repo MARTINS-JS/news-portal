@@ -1,0 +1,8 @@
+#featured {
+  margin-top: 40px;
+
+  div img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
