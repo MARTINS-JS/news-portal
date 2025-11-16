@@ -13,6 +13,8 @@
 }
 
 .secondary {
+  border: 1px solid var(--stroke-color);
+  border-inline: none;
   display: grid;
   font: var(--text-span);
   grid-auto-flow: column;
