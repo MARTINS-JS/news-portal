@@ -1,0 +1,21 @@
+.primary {
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  padding-block: 20px;
+
+  div {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+  }
+}
+
+.secondary {
+  display: grid;
+  font: var(--text-span);
+  grid-auto-flow: column;
+  justify-content: space-between;
+  padding-block: 14px;
+}
