@@ -1,7 +1,13 @@
 #featured {
   margin-top: 40px;
 
+  div {    
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
   div img {
+    border-radius: 4px;
     height: 100%;
     object-fit: cover;
   }

@@ -13,3 +13,19 @@
 .gap-16 {
   gap: 16px;
 }
+
+.gradient {
+  position: relative;
+
+  &::before {
+    content: "";
+    background: linear-gradient(
+      180deg,
+      transparent 0%,
+      #020617 100%
+    );
+    inset: 0;
+    position: absolute;
+    top: 50%;
+  }
+}
