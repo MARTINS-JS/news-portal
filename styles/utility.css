@@ -46,6 +46,10 @@
   font: var(--text);
 }
 
-txt-sm {
+.txt-sm {
   font: var(--text-sm);
+}
+
+.txt-lg {
+  font: var(--text-span);
 }
