@@ -29,3 +29,23 @@
     top: 50%;
   }
 }
+
+.font-h1 {
+  font: var(--h1);
+}
+
+.font-h2 {
+  font: var(--h2);
+}
+
+.font-h3 {
+  font: var(--h3);
+}
+
+.txt {
+  font: var(--text);
+}
+
+txt-sm {
+  font: var(--text-sm);
+}
