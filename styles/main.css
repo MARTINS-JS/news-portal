@@ -1,0 +1,13 @@
+main {
+  column-gap: 32px;
+  row-gap: 80px;
+
+  grid-template-columns: 2fr 1.2fr;
+
+  grid-template-areas: 
+  "featured featured"
+  "weekly weekly"
+  "highlights aside";
+
+  margin-block: 40px;
+}

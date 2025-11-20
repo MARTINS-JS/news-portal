@@ -1,0 +1,32 @@
+aside {
+  grid-area: aside;
+
+  img {
+    object-fit: cover;
+    width: 488px;
+  }
+
+  figure {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    overflow: hidden;
+    height: 72px;
+
+    img {
+      aspect-ratio: 1/1;
+      height: 72px;
+      width: 72px;
+    }
+
+    figcaption {
+      span {
+        margin-bottom: 8px;
+      }
+
+      h3 {
+        font: 800 14px/140% var(--font-family);;
+      }
+    }
+  }
+}

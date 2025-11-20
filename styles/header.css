@@ -21,3 +21,35 @@
   justify-content: space-between;
   padding-block: 14px;
 }
+
+.header {
+  border-top: 1px solid var(--stroke-color);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+
+  h3,
+  a {
+    color: var(--text-color-secondary);
+  }
+
+  a {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    
+    span {
+      background-image: url(../assets/icons/arrowRight.svg);
+      height: 16px;
+      width: 16px;
+    }
+
+    &:hover {
+      color: var(--brand-color-light);
+    }
+    
+    &:hover span {
+      background-image: url(../assets/icons/arrowRight-hover.svg);
+    }
+  }
+}
